@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        function Interest(principal,rate,year)
+        {
+            let Interest = (principal*rate*year)/100;
+
+            return Interest
+        }
+
+
+        let pAmount = 2000;
+        let InterestRate = 5;
+        let Years = 2;
+
+        let simpleInterest = Interest(pAmount,InterestRate,Years);
+        document.write(simpleInterest);
+
+
+    </script>
+</body>
+</html>

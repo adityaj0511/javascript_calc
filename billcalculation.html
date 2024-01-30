@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function calc(itemPrice, qnty, tax) {
+            let subtotal = itemPrice * qnty;
+            let taxamnt = subtotal * (tax / 100);
+            let totalBill = subtotal + taxamnt;
+            return totalBill
+        }
+
+        let mobilePrice = 40000;
+        let mobileQuantity = 2;
+        let taxRate = 12;
+
+        let Bill = calc(mobilePrice,mobileQuantity,taxRate);
+        document.write(Bill);
+    </script>
+
+
+
+    
+</body>
+</html>

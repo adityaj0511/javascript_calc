@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+        let score = 75;
+        function calc(value)
+        {
+            if(value>=90)
+            {
+                return 'A'
+            }
+            else if(value >=80)
+            {
+                return 'B'
+            }
+            else if(value >=70)
+            {
+                return 'C'
+            }
+            else if(value >=60)
+            {
+                return 'D'
+            }
+          else
+          {
+            return 'FAIL'
+          }
+        }
+        let grade = calc(score);
+        document.write(grade);
+    
+
+
+</script>
+
+    
+</body>
+</html>
